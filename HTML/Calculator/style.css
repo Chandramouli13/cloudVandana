@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #00AAFF, #00FF6c);
+}
+
+.calculator {
+    border: 5px solid white;
+}
+
+#inputTag {
+    height: 80px;
+    text-align: right ;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: bisque;
+    padding: 0 25px;
+}
+
+.row {
+    display: flex;
+    background-color: black;
+    padding: 10px 25px;
+    justify-content: space-around;
+}
+
+.button {
+    border-radius: 100%;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    margin: 5px 5px;
+    cursor: pointer;
+    background-color: #313131;
+    color: gold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.button:hover {
+    background-color: white;
+    opacity: 1;
+}
+  
+.zero {
+    padding-right: 34%;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    margin-left: 1.6%;
+}
+  
+.clear {
+    padding: 20px 16px;
+    background-color: #9f9f9f;
+    color: black;
+}
+  
+.delete {
+    padding: 20px 10px;
+    border-radius: 50px;
+    background-color: #9f9f9f;
+    color: black;
+}
+
+.percent {
+    padding: 20px 24px;
+    background-color: #9f9f9f;
+    color: black;
+}
+
+.divide {
+    padding: 20px 30px;
+    background-color: #9f9f9f;
+    color: white;
+}
+
+.sub {
+    padding-right: 38px;
+}
+
+.decimal {
+    padding: 28px 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.divide, .multiply, .sub, .plus, .equal {
+    background-color: #f69906;
+    color: black;
+} 
+
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="calculator">
+                <input type="text" id="inputTag" placeholder="0">
+                <div class="row">
+                    <button class="button clear" onclick="clr()">AC</button>
+                    <button class="button delete" onclick="clrOne()">DEL </button>
+                    <button class="button percent" onclick="calculate('%')">%</button>
+                    <button class="button divide" onclick="calculate('/')">÷</button>
+                </div>
+                <div class="row">
+                    <button class="button seven" onclick="calculate(7)">7</button>
+                    <button class="button eight" onclick="calculate(8)">8</button>
+                    <button class="button nine" onclick="calculate(9)">9</button>
+                    <button class="button multiply" onclick="calculate('*')">x</button>
+                </div>
+                <div class="row">
+                    <button class="button four" onclick="calculate(4)">4</button>
+                    <button class="button five" onclick="calculate(5)">5</button>
+                    <button class="button six" onclick="calculate(6)">6</button>
+                    <button class="button sub" onclick="calculate('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="button one" onclick="calculate(1)">1</button>
+                    <button class="button two" onclick="calculate(2)">2</button>
+                    <button class="button three" onclick="calculate(3)">3</button>
+                    <button class="button plus" onclick="calculate('+')">+</button>
+                </div>
+                <div class="row">
+                    <button class="button zero" onclick="calculate(0)">0</button>
+                    <button class="button decimal" onclick="calculate('.')">.</button>
+                    <button class="button equal" onclick="result()">=</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
